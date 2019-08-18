@@ -1,7 +1,8 @@
 import React from 'react';
+import HOCComponent from './modules/HOC/index';
 
 const App: React.FC = () => {
-    return <div className='App' />;
+    return <HOCComponent />;
 };
 
 export default App;
